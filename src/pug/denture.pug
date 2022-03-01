@@ -1,0 +1,133 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "denture"
+  - var page = pages[key]
+
+block contents
+  p.denture__intro
+    | 入れ歯は失った歯や歯肉の代わりとなる口腔内装置です。<br>当然、患者さまの健康維持のためにも必要なものです。<br>しかし、痛みや違和感が強いなど不満の出やすい装置でもあります。<br>現在ご使用中の入れ歯はいかがでしょうか？<br>当クリニックは、保険の入れ歯はもとより様々な特殊な入れ歯にも精通しております。入れ歯は高価な素材を使って作ったからといって良いものが出来上がるわけではありません。<br>入れ歯でお困りのことがあれば、東大阪市布施駅前の歯科医院おかだ歯科クリニックにお気軽にご相談ください。
+  section.denture_explain
+    h2.ttl--2 ■&ensp;保険の入れ歯
+    p.denture__explain__sentence
+      | 保険診療の範囲内で作る入れ歯。使用できる材料に制約がある。
+    dl.denture__dl
+      dt.denture__dt メリット
+      dd.denture__dd
+        ul.denture__dd__ul
+          li 費用が安く製作日数も短い期間で出来上がる
+      dt.denture__dt デメリット
+      dd.denture__dd 
+        ul.denture__dd__ul
+          li 強度に問題があり力がかかるとたわむので痛みが出やすい
+          li 残っている歯やあごの骨にダメージを受けやすい
+          li 割れやすいので厚みを持たせる必要があり強い違和感がある
+          li 金属の止め金（クラスプ）を使うので見た目や舌感に問題がある
+    img(src=imgPath+"/denture/denture.png" alt="保険の入れ歯").denture__explain__img1
+  section.denture_explain
+    h2.ttl--2 ■&ensp;特殊な入れ歯
+    ul.denture__ul
+      li 入れ歯だと気づかれたくない
+      li 違和感があり使うのが苦痛
+      li 入れ歯が外れる
+      li 話しづらい
+    p このようなお悩みはありませんか？<br>保険の入れ歯では使えない特殊な材料を使うことで入れ歯のお悩みを解決できます。
+    section
+      h3.ttl--3 スマイルデンチャー
+      p 残っている歯に金属の止め金を使わず、特殊な樹脂の弾力で義歯を維持します。薄く、軽く、弾力のあるのが特徴で、入れ歯に見えず笑顔に自信が持てるということでこの名が付きました。
+      div.imgs2
+        div.imgs2__item
+          img(src=imgPath+"/denture/smileDentBfEx.jpg" alt="スマイルデンチャーの装着前")
+          p 装着前
+        div.imgs2__item
+          img(src=imgPath+"/denture/smileDentAfEx.jpg" alt="スマイルデンチャーの装着後")
+          p 装着後
+      div.imgs3
+        div.imgs3__item
+          img(src=imgPath+"/denture/smileDent.jpg" alt="スマイルデンチャー")
+          p スマイルデンチャー
+        div.imgs3__item
+          img(src=imgPath+"/denture/smileDentBf.jpg" alt="スマイルデンチャーの装着前")
+          p 装着前
+        div.imgs3__item
+          img(src=imgPath+"/denture/smileDentAf.jpg" alt="スマイルデンチャーの装着後")
+          p 装着後
+      dl.denture__dl
+        dt.denture__dt メリット
+        dd.denture__dd
+          ul.denture__dd__ul
+            li 見た目が入れ歯だとわからない
+            li 小さく軽いので違和感が少ない
+        dt.denture__dt デメリット
+        dd.denture__dd
+          ul.denture__dd__ul
+            li 専用の洗浄剤を使う
+            li 表面が荒れてくることがある
+    section
+      h3.ttl--3 磁性アタッチメント義歯
+      div.imgDesc
+        img(src=imgPath+"/denture/magDentIllust.jpg" alt="磁性アタッチメント義歯").imgDesc__img
+        div.imgDesc__desc
+          p ものを噛む能力を高めます。
+          dl.denture__dl
+            dt.denture__dt メリット
+            dd.denture__dd
+              ul.denture__dd__ul
+                li 金属の止め金が必要ないので、見た目が良い。
+                li カチッと入れ歯が固定されるので、違和感が少なく、よく噛める。
+                li 磁力による維持力の調整が可能。
+                li 根っこしか残っていない歯を抜かずに利用できる。
+            dt.denture__dt デメリット
+            dd.denture__dd
+              ul.denture__dd__ul
+                li 根っこが悪くなると装置として使えなくなる
+      div.imgs3
+        div.imgs3__item
+          img(src=imgPath+"/denture/magDent.jpg" alt="磁性アタッチメント義歯")
+          p 磁性アタッチメント義歯
+        div.imgs3__item
+          img(src=imgPath+"/denture/magDentBf.jpg" alt="磁性アタッチメント義歯の装着前")
+          p 装着前
+        div.imgs3__item
+          img(src=imgPath+"/denture/magDentAf.jpg" alt="磁性アタッチメント義歯の装着後")
+          p 装着後
+    section
+      h3.ttl--3 アタッチメント義歯（クーゲルホックアタッチメントとロケーターアタッチメントの2種）
+      div.imgDesc
+        img(src=imgPath+"/denture/attDentIllust.jpg" alt="アタッチメント義歯の図").imgDesc__img
+        div.imgDesc__desc
+          p 入れ歯と残っている歯のそれぞれに小さな維持装置を取り付けることによって、入れ歯の安定感やものを噛む能力を高めます。
+          dl.denture__dl
+            dt.denture__dt メリット
+            dd.denture__dd
+              ul.denture__dd__ul
+                li 金属の止め金が必要ないので、見た目が良い。
+                li カチッと入れ歯が固定されるので、違和感が少なく、よく噛める。
+                li 維持力の調整が可能。
+                li 根っこしか残っていない歯を抜かずに利用できる。
+            dt.denture__dt デメリット
+            dd.denture__dd
+              ul.denture__dd__ul
+                li 根っこが悪くなると装置として使えなくなる
+                li フィメール部分は使っていると劣化してくるので交換する必要がある
+    section
+      h3.ttl--3 金属床義歯
+      p 金属を組み合わせた入れ歯
+      dl.denture__dl
+        dt.denture__dt メリット
+        dd.denture__dd
+          ul.denture__dd__ul
+            li 強度があるのでたわみが少なく、歯肉やあごの骨にダメージを与えにくいので痛みが出にくい
+            li 保険の入れ歯より薄いので口の中が広く感じられ違和感が少ない
+            li 飲食物の温度が伝わりやすい
+        dt.denture__dt デメリット
+        dd.denture__dd
+          ul.denture__dd__ul
+            li 金属アレルギーの場合は不適
+      h4.ttl--4 金属床義歯と保険の入れ歯の比較
+      div.imgs2
+        div.imgs2__item
+          img(src=imgPath+"/denture/metalDent.jpg" alt="金属床義歯")
+        div.imgs2__item
+          img(src=imgPath+"/denture/insDent.jpg" alt="保険の入れ歯")

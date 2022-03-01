@@ -1,0 +1,19 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "access"
+  - var page = pages[key]
+
+block contents
+  p 近鉄布施駅中央北口、西北口より徒歩1分<br>「ニュー松坂」裏の道を入って2軒目の2階
+  div.access__img
+    div.access__img__item
+      iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13126.438573411022!2d135.562453!3d34.66456!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x316f9ea1381140a3!2z44GK44GL44Gg5q2v56eR44Kv44Oq44OL44OD44Kv!5e0!3m2!1sja!2sjp!4v1583907150361!5m2!1sja!2sjp" width="100%" height="100%" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0")
+    div.access__img__item
+      img(src=imgPath+"/access/outer.jpg" alt="大阪・東大阪市長堂布施駅前のおかだ歯科クリニックの外観")
+  section.access__info
+    +clinicInfo("access__info")
+    +officeHours("access__info")
+  
+  

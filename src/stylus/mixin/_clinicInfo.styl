@@ -1,0 +1,28 @@
+clinicInfo()
+  &__clinic
+    csReverse()
+    padding 4vw
+    &__dir
+      padding 0 1rem
+      position relative
+      text-align center
+      &::before
+        background-color c-bg-1
+        content ""
+        height 2px
+        left 0
+        position absolute
+        top calc(50% - 1px)
+        width 100%
+      & span
+        background-color c-theme-1
+        padding 0 1rem
+        position relative
+    &__btn
+      display grid
+      grid-gap 3vw
+      grid-template-columns 1fr 1fr
+      &__tel
+        btnIcon(c-theme-1, c-bg-1, c-theme-1, c-bg-2, "\e0b0")
+      &__access
+        btnIcon(c-theme-1, c-bg-1, c-theme-1, c-bg-2, "\e0c8")

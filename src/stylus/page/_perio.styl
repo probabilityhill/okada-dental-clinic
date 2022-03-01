@@ -1,0 +1,28 @@
+.perio
+  &__explain
+    &__img
+      display grid
+      grid-template-rows auto auto
+      &__txt
+        display grid
+        grid-template-columns 1fr 1fr 1fr 1fr
+        & p
+          font-size 3vw
+          text-align center
+  &__treatment
+    &__img
+      width 50vw
+    &__conc
+      margin-top 3rem
+
++ls()
+  .perio
+    &__explain
+      &__img
+        width 70%
+        &__txt
+          & p
+            font-size inherit
+    &__treatment
+      &__img
+        width 20vw

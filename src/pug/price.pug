@@ -1,0 +1,110 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "price"
+  - var page = pages[key]
+
+block contents
+  p 歯科治療には、保険が適用される保険診療と、保険が適用されない自費診療があります。<br>保険診療は国の保険制度のルールに従った材料や治療法で治療を行います。<br>自費診療では、より患者様の歯の状態に適した材料や治療法が選べるため、審美性・機能性・耐久性の高い治療を追求することができます。<br>保険診療は多くの方が診療費用の1割～3割の支払いとなりますが、自費診療は全額（10割）が自己負担となります。
+  section
+    h2.ttl--2 自費診療の料金表
+    p [改訂版]&ensp;2021年4月より税込価格表示
+    table.price__table
+      tr
+        th(colspan="2") ジルコニア
+      tr
+        td ジルコニアボンドポーセレン
+        td &yen;89,100
+      tr
+        td ジルコニアフルクラウン
+        td &yen;79,200
+      tr
+        td ジルコニアインレー
+        td &yen;60,500
+    table.price__table
+      tr
+        th(colspan="2") ポーセレン（セラミック）
+      tr
+        td メタルボンドポーセレン（コバルトクロム）
+        td &yen;77,000
+      tr
+        td 連結1カ所につき
+        td &yen;3,300
+      tr
+        td オールセラミッククラウン
+        td &yen;127,600
+      tr
+        td ラミネートベニア
+        td &yen;89,100
+      tr
+        td セラミックインレー・アンレー
+        td &yen;55,000<br>&yen;66,000
+    table.price__table
+      tr
+        th(colspan="2") ハイブリッドセラミック
+      tr
+        td ハイブリッドセラミッククラウン（金属なし）
+        td &yen;55,000
+      tr
+        td ハイブリッドセラミッククラウン（金属あり）
+        td &yen;66,000
+      tr
+        td ハイブリッドセラミックインレー・アンレー
+        td &yen;33,000<br>&yen;44,000
+    table.price__table
+      tr
+        th(colspan="2") Gold
+      tr
+        td Goldクラウン
+        td &yen;88,000
+      tr
+        td Goldインレー・アンレー
+        td &yen;55,000<br>&yen;66,000
+    table.price__table
+      tr
+        th(colspan="2") 硬質レジン
+      tr
+        td 硬質レジンフェイシングクラウン
+        td &yen;39,600
+      tr
+        td Goldインレー・アンレー
+        td &yen;55,000<br>&yen;66,000
+    table.price__table
+      tr
+        th(colspan="2") インプラント
+      tr
+        td １回法&emsp;埋入１本につき
+        td &yen;201,300
+      tr
+        td ２回法&emsp;埋入１本につき
+        td &yen;234,300
+      tr
+        td(colspan="2") CT撮影費用および診断料、上部のかぶせもの(&yen;121,000～)は別料金となります
+    table.price__table
+      tr
+        th(colspan="2") 義歯（入れ歯）
+      tr
+        td スマイルデンチャー
+        td &yen;110,000～
+      tr
+        td 金属床義歯<br>コバルトクロム・チタン
+        td &yen;275,000<br>&yen;286,000
+      tr
+        td アタッチメント（維持装置）
+        td &yen;66,000
+    table.price__table
+      tr
+        th(colspan="2") 歯の漂白（ホワイトニング）
+      tr
+        td ホームホワイトニング（マウスピースと薬剤2週間分）
+        td 上顎&ensp;&yen;22,000<br>上下顎&ensp;&yen;37,950
+      tr
+        td オフィスホワイトニング（1day50分程度&ensp;3回薬剤塗布）
+        td 上下顎前歯部&ensp;&yen;11,000
+      tr
+        td デュアルホワイトニング（オフィスホワイトニング2dayとホームホワイトニング2週間）
+        td 上下顎&ensp;&yen;48,950
+      tr
+        td ホームホワイトニングオプション（ホームホワイトニングを施術した方のみ購入できます）
+        td 追加薬剤(2本)&ensp;&yen;4,400<br>追加トレー&ensp;&yen;7,700

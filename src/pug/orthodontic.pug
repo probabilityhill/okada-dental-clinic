@@ -1,0 +1,64 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "orthodontic"
+  - var page = pages[key]
+
+block contents
+  section.orth__child
+    h2.ttl--2 ■&ensp;こどもの矯正治療
+    p.orth__child__intro
+      | こどもの矯正治療は、1期治療と2期治療にわかれます。1期治療で解決できない問題が残る場合は2期治療が必要になります。
+    section
+      h3.ttl--3 1期治療
+      p 1期治療は混合歯列期（乳歯から永久歯へと生え変わる時期）に行います。1期治療では永久歯がきれいに生えるための土台作りとしてあごの成長を促進したり、抑制したり、歯並びを広げたりします。<br>また、歯並びが悪くなる習癖（口呼吸、舌の癖、指しゃぶりなど）を直します。1期治療のみで矯正治療が終わるケースもあります。
+    section
+      h3.ttl--3 2期治療
+      p 2期治療は永久歯が全て生え揃い、歯の根の成長が完了する中学生から高校生のころに大人の矯正と同様に、矯正装置を付けて歯を動かします。1期治療で顎骨のバランスを整えているので、スムーズに歯を移動させることができます。
+  section.orth__adult
+    h2.ttl--2 ■&ensp;成人の矯正治療
+    p.orth__adult__intro
+      | 矯正治療に年齢制限はありません。歯並びを改善することでいろいろなメリットあります。
+    ul.orth__adult__merit
+      li コンプレックスを解消できる
+      li 口元や顔のラインが美しくなる
+      li 虫歯や歯周病の予防になる
+      li かみ合わせが改善する
+    p.orth__adult__conc
+      | また、審美的なセラミック治療を行う場合に矯正治療を行うことで、治療した歯がより長持ちする、より見た目がよくなるというメリットもあります。
+  section.orth__process
+    h2.ttl--2 ■&ensp;矯正治療の流れ
+    section.orth__process__item
+      h3.ttl--3 相談
+      p.orth__process__item__sentence
+        | 現在の状態、治療方法、期間、費用などのおおまかな説明をします。<br>＊約１時間 3,500円（税別）
+    div.orth__process__arrow ▼
+    section.orth__process__item
+      h3.ttl--3 検査
+      p.orth__process__item__sentence
+        | 治療を希望される方は下記の検査をいたします。
+        ul.orth__process__item__sentence__li
+          li 頭部Ｘ線規格写真（正面、側面）
+          li パノラマＸ線写真 (歯全体)
+          li 石こう模型
+          li SAM（下顎の偏位）
+          li 口腔内写真
+          li 顔面写真&emsp;&emsp;&emsp;など
+        | ＊約2時間 38,000円(税別)
+    div.orth__process__twoweeks 2週間後～
+    div.orth__process__arrow ▼
+    section.orth__process__item
+      h3.ttl--3 診断
+      p.orth__process__item__sentence
+        | 検査結果をもとに現在の状態、治療方法、期間、費用などを説明します。<br>＊約1時間 3,500円（税別）
+    div.orth__process__arrow ▼
+    section.orth__process__item
+      h3.ttl--3 治療開始
+      p.orth__process__item__sentence
+        | 来院は月1〜2回<br>＊約30分〜1時間<br>&emsp;初回に基本料 約30～80万円<br>&emsp;毎回の処置料 3,500円（税別）<br>（装置の費用、定期的な検査の費用を含む）
+    div.orth__process__arrow ▼
+    section.orth__process__item
+      h3.ttl--3 術後観察
+      p.orth__process__item__sentence
+        | 2年間 保定装置を使用します。来院は年3〜4回<br>＊約30分 2,500円（税別）

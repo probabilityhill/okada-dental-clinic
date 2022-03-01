@@ -1,0 +1,82 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "general"
+  - var page = pages[key]
+
+block contents
+  p.general__intro
+    | 一般歯科とは、虫歯の治療や歯周病の治療、義歯の調整、作製などを主とする診療です。<br>通常、保険診療の範囲内で治療を行います。
+  section.general__caries
+    h2.ttl--2 ■&ensp;虫歯
+    p.general__caries__sentence
+      | 食べ物や飲み物に含まれる糖分を餌としてお口の中の細菌（虫歯菌）が増殖し歯の表面にプラーク（歯垢）を作ります。それと同時に細菌は酸も作ります。<br>虫歯はこの酸によって歯の表面（エナメル質）が溶かされることにより起こります。<br>虫歯は進行状態によりC0～C4に分けられます。
+    div.general__caries__explain
+      section
+        h3.ttl--3 C0
+        p 歯のエナメル質の表面が溶かされ始めた状態で、目に見えない位の小さな穴ができるため白く濁ったように見えます。<br>適切な歯磨きや食生活で自然に回復するのでフッ素塗布を行い様子をみます。
+      img(src=imgPath+"/general/c0.png" alt="C0")
+    div.general__caries__explain
+      section
+        h3.ttl--3 C1
+        p C0からさらにエナメル質が溶けて小さな穴ができた状態です。<br>虫歯の部分を取ってレジンで埋める治療をお勧めしますが、年齢や虫歯の場所によっては様子をみます。
+      img(src=imgPath+"/general/c1.png" alt="C1")
+    div.general__caries__explain
+      section
+        h3.ttl--3 C2
+        p エナメル質を越えてその下の象牙質に及んだ状態です。<br>冷たいものや甘いものでしみたりすることがあります。<br>1～2回の治療で済むので早期の治療をお勧めします。
+      img(src=imgPath+"/general/c2.png" alt="C2")
+    div.general__caries__explain
+      section
+        h3.ttl--3 C3
+        p 象牙質の下の神経のところまで及んだ状態です。<br>歯の神経を取る治療になります。虫歯で歯があまり残っていないことが多く、かぶせもので修復する必要があるため、治療回数も4～7回と多くなります。
+      img(src=imgPath+"/general/c3.png" alt="C3")
+    div.general__caries__explain
+      section
+        h3.ttl--3 C4
+        p 虫歯が歯の根の中まで及んだ状態です。<br>治療が不可能なため抜歯となります。
+      img(src=imgPath+"/general/c4.png" alt="C4")
+  section.general__resin
+    h2.ttl--2 ■&ensp;コンポジットレジン充填
+    p.general__resin__sentence
+      | 虫歯を除去した後にコンポジットレジン（プラスチック）を詰める治療です。（保険適応）
+    div.imgs2
+      div.imgs2__item
+        img(src=imgPath+"/general/resinBf.jpg" alt="コンポジットレジン充填治療前")
+        p 治療前
+      div.imgs2__item
+        img(src=imgPath+"/general/resinAf.jpg" alt="コンポジットレジン充填治療後")
+        p 治療後
+    p.general__resin__atten
+      | ＊虫歯が大きかったり、噛む力が強い場合、割れたり取れたりする可能性があります。
+  section.general__anesth
+    h2.ttl--2 ■&ensp;麻酔
+    div.imgs2
+      img(src=imgPath+"/general/anesth.jpg" alt="注射器と麻酔剤")
+      img(src=imgPath+"/general/syringe.jpg" alt="麻酔の注射器")
+    p.general__anesth__sentence
+      | 「なるべく痛くないように麻酔の注射をする」<br>これは私が常に心掛けていることです。痛くないようにすることで患者さまの恐怖心を和らげたり、少しでも苦痛を減らすことができればと思いながら治療に臨んでいます。その甲斐あってか、「本当に注射をしたんですか？」とか「痛くない麻酔を使ってるんですか？」とよく言われます。麻酔には特別な器具は使いません。針を刺す場所を見極めるのと、刺し方に痛くしないコツがあります。<br>ただし、まれにうまくいかないこともあります。麻酔の効きにくい部位や非常に強い痛みのある歯には麻酔が効かないことがあり、追加の麻酔に痛みがあったり治療を中断することもあります。<br>この場合もなるべく痛くないように配慮はしております。
+  section.general__tar
+    h2.ttl--2 ■&ensp;歯のヤニとり
+    p.general__tar__sentence
+      | パウダーを吹き付け、その研摩作用でステイン（ヤニ）をとります。<br>定期的に繰り返すことで歯の表面がつるつるになり、ステインが付きにくくなります。<br>歯石取りなどの歯周病治療の一環として行います。
+    div.imgs2
+      div.imgs2__item
+        img(src=imgPath+"/general/tarBf.jpg" alt="歯のヤニとりの治療前")
+        p 治療前
+      div.imgs2__item
+        img(src=imgPath+"/general/tarAf.jpg" alt="歯のヤニとりの治療後")
+        p 治療後
+  section.general__wisdomTooth
+    h2.ttl--2 ■&ensp;親知らず
+    img(src=imgPath+"/general/wisdomTooth.jpg" alt="親知らず").general__wisdomTooth__img
+    p.general__wisdomTooth__sentence
+      | 親知らずは8番目の歯で、この歯自体が痛むことは少なく、親知らずが生えるためのスペースがないために起こる歯ぐきの痛みや、 その前に生えている7番目の歯が痛むことで問題となります。歯並びに悪い影響を及ぼすこともあります。<br>処置としては、問題がなければそのまま残すことになります。虫歯があれば虫歯の治療を行います。痛みがあったり、親知らずがあることで問題となる場合は抜歯の選択となります。<br>抜歯の困難が予想されたり、あごの神経に近く危険であると判断した場合は口腔外科をご紹介しています。当クリニックでは、連携している市立東大阪医療センターの口腔外科をご紹介することが多いです。
+  section.general__laser
+    h2.ttl--2 ■&ensp;レーザー治療
+    p.general__laser__sentence
+      | 当クリニックでは、CO2レーザーを治療に活用しています。<br>口内炎はレーザーで焼いて疑似のかさぶたをつくることで痛みが弱くなり治りも早くなります。親知らずの歯ぐきの痛みや顎関節症の痛みや口が空きにくくなったときにも有効です。外科的には上唇小帯や頬小の帯切除、歯肉切除で使います。また、抜歯後の止血処置や外科処置後の殺菌消毒、歯ぐきの腫れた痛みを和らげる目的でよく使っています。
+    div.imgs2
+      img(src=imgPath+"/general/laser.jpg" alt="CO2レーザー")
+      img(src=imgPath+"/general/stomatitis.jpg" alt="口内炎")

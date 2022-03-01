@@ -1,0 +1,81 @@
+.slick-slide
+  margin 0
+  &:focus
+    outline none
+
+.top__main
+  padding-bottom 5vw
+
+.atf
+  &__msg
+    color c-theme-1
+    font-size 3.5vw
+    font-weight 700
+    margin 0
+    padding 5vw 3vw 0
+    text-align center
+    & span
+      marker-medium(c-bg-2)
+
++ls()
+  .atf
+    &__msg
+      font-size 2.5vw
+
+.info
+  padding 5vw
+  clinicInfo()
+  officeHours()
+
+.news
+  padding 0 5vw
+  &__item
+    & li
+      list-style-type disc
+      /*
+      &:first-child, &:nth-child(2)
+        color c-txt-3*/
+    & a
+      text-decoration underline
+  &__color
+    margin-top 3rem
+  &__cal
+    &__table
+      height 60vw
+      margin 0 auto 7vw
+      table-layout fixed
+      text-align center
+      width 60vw
+      & td:first-child:not(.empty)
+        background-color c-bg-2
+        color c-txt-3
+      & td:last-child:not(.empty)
+        color c-theme-1
+      & th, & td
+        border solid 2px c-txt-1
+      &__m
+        background-color c-txt-1
+        color c-bg-1
+        font-size 120%
+.closed
+  background-color c-bg-2
+.holiday
+  background-color c-bg-2
+  color c-txt-3
+
++ls()
+  .info
+    display grid
+    grid-gap 5vw
+    grid-template-columns 1fr 1fr
+    officeHoursLs()
+  .news
+    &__cal
+      display grid
+      grid-gap 5vw
+      grid-template-columns 1fr 1fr
+      height 25vw
+      width 45vw
+      &__table
+        height 20vw
+        width 20vw

@@ -1,0 +1,53 @@
+// Global site tag (gtag.js) - Google Analytics
+script(async, src="https://www.googletagmanager.com/gtag/js?id=UA-51349924-1")
+script
+  | window.dataLayer = window.dataLayer || [];
+  | function gtag(){dataLayer.push(arguments);}
+  | gtag('js', new Date());
+  | gtag('config', 'UA-51349924-1');
+
+meta(charset="utf-8")
+meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+meta(name="viewport", content="width=device-width, initial-scale=1.0, shrink-to-fit=no")
+title #{page.title}
+meta(name="description", content=page.description)
+meta(name="format-detection", content="email=no,telephone=no,address=no")
+meta(name="theme-color", content=themeColor)
+link(rel="canonical", href=domain+page.canonicalUrl)
+
+// link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
+
+// Material Icons Outlined
+link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined")
+//slick
+link(rel="stylesheet", href="slick/slick.css")
+link(rel="stylesheet", href="slick/slick-theme.css")
+//font
+link(rel="preconnect" href="https://fonts.gstatic.com")
+link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&display=swap")
+//style.css
+link(rel="stylesheet", href=cssPath+"/style.css")
+
+link(rel="icon", href=imgPath+"/common/favicon.ico")
+link(rel="apple-touch-icon", href=imgPath+"/common/apple-touch-icon.png")
+meta(name="msapplication-TileImage", content=imgPath+"/common/logo.png")
+meta(name="msapplication-TileColor", content=themeColor)
+
+//
+  <PageMap>
+   <DataObject type="thumbnail">
+     <Attribute name="src" value="#{page.image}">
+     <Attribute name="width" value="100">
+     <Attribute name="height" value="130">
+   </DataObject>
+  </PageMap>
+
+meta(property="og:url", content=domain+page.canonicalUrl)
+meta(property="og:title", content=page.title)
+meta(property="og:site_name", content=page.siteName)
+meta(property="og:description", content=page.description)
+meta(property="og:type", content=page.siteType)
+meta(property="og:image", content=domain+page.image)
+meta(property="og:image:alt", content=page.imageAlt)
+meta(property="og:locale", content="ja_JP")
+meta(name="twitter:card", content="summary_large_image")

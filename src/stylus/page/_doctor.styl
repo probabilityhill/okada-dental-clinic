@@ -1,0 +1,37 @@
+.doctor
+  &__msg
+    display grid
+    grid-template-columns 2fr 5fr
+    grid-template-rows auto auto
+    & img
+      grid-area 1 / 1 / span 1 / span 1
+    &__name
+      center()
+      csReverse()
+      font-size 120%
+      grid-area 1 / 2 / span 1 / span 1
+      margin 0
+    &__sentence
+      grid-area 2 / 1 / span 1 / span 2
+      margin-bottom 0
+  &__career
+    & th
+      border solid 2px c-txt-1
+      font-weight inherit
+      text-align center
+    & td
+      border solid 2px c-txt-1
+  &__qualification
+    margin-bottom 5rem
+    padding-left 3rem
+    & li
+      list-style-type square
+      & a
+        text-decoration underline
+
++ls()
+  .doctor
+    &__msg
+      grid-template-columns 10vw 30vw
+    &__career
+      width 40vw

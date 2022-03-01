@@ -1,0 +1,17 @@
+.price__table
+  border-collapse collapse
+  margin-bottom 3rem
+  & th
+    background-color c-txt-1
+    border 2px solid c-txt-1
+    color c-bg-1
+  & td
+    border 2px solid c-txt-1
+    &:nth-child(even)
+      text-align center
+      width 35%
++ls()
+  .price__table
+    & td
+      &:nth-child(even)
+        width 30%

@@ -1,0 +1,20 @@
+// ロゴ
+if key=="top"
+  - var logoTag = 'h1';
+else
+  - var logoTag = 'p';
+
+#{logoTag}.headerLogo
+  a(href=pages.top.url)
+    img(src=imgPath+"/common/logo.png", alt=logoAlt)
+    
+// ヘッダーナビゲーション（SP）
+//+headerNav(headerMenuSp, "nav", "headerNavSp")
+nav.headerNavSp
+  ul.headerNavSp__menu
+    li.headerNavSp__menu__item--1
+      a(href=headerMenuSp[0]['pageLink'])
+    li.headerNavSp__menu__item--2
+      a(href=headerMenuSp[1]['pageLink'])
+// ヘッダーナビゲーション（PC）
++headerNav(globalMenu, "nav", "headerNavPc")

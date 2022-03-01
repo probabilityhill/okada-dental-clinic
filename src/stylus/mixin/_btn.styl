@@ -1,0 +1,15 @@
+btnIcon(c, bg, cHover ,bgHover, icon)
+  background-color bg
+  border-radius 1rem
+  color c
+  display inline-block
+  font-weight 600
+  padding 1rem
+  text-align center
+  &::before
+    content icon
+    mio()
+    vertical-align middle
+  &:hover
+    background-color bgHover
+    color cHover

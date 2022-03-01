@@ -1,0 +1,90 @@
+//ハンバーガーボタン
+.gnavToggle
+  center()
+  height 15vw
+  position fixed
+  right 0
+  top 0
+  width (100/7)vw
+  z-index 999999
+  &__btn--open, &__btn--open::before, &__btn--open::after
+    background-color c-bg-1
+    content ''
+    cursor pointer
+    display block
+    height .8vw
+    position absolute
+    transition all .3s
+    width 7vw
+  &__btn--close
+    background-color transparent
+  &__btn--open::before
+    bottom 2.5vw
+  &__btn--close::before
+    bottom 0
+    transform rotate(45deg)
+  &__btn--open::after
+    top 2.5vw
+  &__btn--close::after
+    top 0
+    transform rotate(-45deg)
+
++ls()
+  .gnavToggle
+    display none
+
+//ハンバーガーメニューの中身
+.navContent
+  background-color c-theme-1
+  font-weight 600
+  display none
+  height 100%
+  overflow-y auto /* スクロール */
+  -webkit-overflow-scrolling touch
+  padding-top 15vw
+  position fixed
+  left 0
+  top 0
+  width 100%
+  z-index 999
+  &::-webkit-scrollbar
+    width 0
+  &__menu
+    display grid
+    grid-row 2 / span 1
+    grid-template-rows 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+    height 80vh
+    &__item
+      centerAlign()
+      color c-bg-1
+      padding-left 10vw
+      position relative
+      &:hover
+        csNormal()
+      & a
+        display block
+        font-size 4vw
+        width 100%
+      &__btn
+        height (80/8)vh
+        left 0
+        position absolute
+        top 0
+        width 100vw
+      &__submenu
+        background-color c-bg-2
+        display none
+        left 0
+        position absolute
+        top (80/8)vh
+        width 100%
+        z-index 999
+        &__item
+          center()
+          height 10vh
+          padding 5vw 10vw
+          &:hover
+            csReverse()
+          & a
+            display block
+            width 100%

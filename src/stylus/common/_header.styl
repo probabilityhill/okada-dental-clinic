@@ -1,0 +1,99 @@
+.header
+  csReverse()
+  display grid
+  grid-template-columns 4fr 2fr 1fr
+  grid-template-rows 15vw
+  position sticky
+  top 0
+  z-index 99999
++ls()
+  .header
+    grid-template-columns 6*4vw auto
+    grid-template-rows 6vw
+
+.headerLogo
+  center()
+  grid-area 1 / 1 / span 1 / span 1
+  margin 0
+
+.headerNavSp
+  grid-area 1 / 2 / span 1 / span 1
+  &__menu
+    display grid
+    grid-template-columns 1fr 1fr
+    height 100%
+    margin 0
+    &__item--1
+      & a
+        display block
+        height 15vw
+        width 15vw
+        &:hover::before
+          csNormal()
+        &::before
+          center()
+          content "\e0b0"
+          font-size 8vw
+          height 100%
+          mio()
+    &__item--2
+      & a
+        display block
+        height 15vw
+        width 15vw
+        &:hover::before
+          csNormal()
+        &::before
+          center()
+          content "\e0c8"
+          font-size 8vw
+          height 100%
+          mio()
+
+/*
+
+          background url(imgPath+'/common/access_blue.svg') center center / 8vw 8vw no-repeat c-bg-1
+
+ */
++ls()
+  .headerNavSp
+    display none
+
+.headerNavPc
+  display none
++ls()
+  .headerNavPc
+    display grid
+    font-weight 600
+    grid-area 1 / 2 / span 1 / span 1
+    &__menu
+      display grid
+      grid-template-columns 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+      grid-template-rows 6vw
+      margin 0
+      &__item
+        center()
+        text-align center
+        position relative
+        &:hover
+          csNormal()
+        & a
+          display block
+          width 100%
+          & span
+            font-size 1.2rem
+        &__submenu
+          display none
+          position absolute
+          top 6vw
+          width 100%
+          &__item
+            background-color c-bg-2
+            center()
+            height 6vw
+            padding 1rem
+            &:hover
+              csReverse()
+            & a
+              display block
+              width 100%

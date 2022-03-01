@@ -1,0 +1,96 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "ceramic"
+  - var page = pages[key]
+
+block contents
+  section.ceramic__explain
+    h2.ttl--2 ■&ensp;ジルコニア
+    p.ceramic__explain__sentence
+      | ジルコニアはセラミックの一種ですが、金属と同じくらいの強度があるので破折する恐れの少ない材料です。セラミックなのでプラークも付きにくいため二次虫歯や歯周病にもなりにくいです。<br>よって、ジルコニア単体でジルコニアフルクラウンとして奥歯の被せものにお勧めします。<br>前歯にはジルコニア単体ですと色合いや質感に難があるので、セラミックの陶材をジルコニアの表側に焼き付けたジルコニアボンドポーセレン、または、全面に焼き付けたジルコニアオールセラミッククラウンをお勧めします。
+    div.imgs2
+      div.imgs2__item
+        img(src=imgPath+"/ceramic/zirconiaBf.jpg" alt="ジルコニア治療前")
+        p 治療前
+      div.imgs2__item
+        img(src=imgPath+"/ceramic/zirconiaAf.jpg" alt="ジルコニア治療後")
+        p 治療後
+  section.ceramic__explain
+    h2.ttl--2 ■&ensp;メタルボンドポーセレン
+    p.ceramic__explain__sentence
+      | コバルトクロム合金の表側にセラミックの陶材を焼き付けた被せものです。前歯や小臼歯に適しています。<br>セラミックの陶材を焼き付けるので隣の歯と同じような色合いにすることができます。金属を使うのでジルコニアボンドよりは美しさでやや劣ります。
+    div.imgs3
+      div.imgs3__item
+        img(src=imgPath+"/ceramic/metalBondBf.jpg" alt="メタルボンドポーセレン治療前")
+        p 治療前
+      div.imgs3__item
+        img(src=imgPath+"/ceramic/metalBond.jpg" alt="メタルボンドポーセレン治療中&ensp;色合わせ")
+        p 治療中<br>（色合わせ）
+      div.imgs3__item
+        img(src=imgPath+"/ceramic/metalBondAf.jpg" alt="メタルボンドポーセレン治療後")
+        p 治療後
+  section.ceramic__explain
+    h2.ttl--2 ■&ensp;ハイブリッドセラミック
+    p.ceramic__explain__sentence
+      | レジン（プラスチック）にセラミックの粉末を混ぜて強度を上げた材料です。<br>材質的にセラミックよりも劣るので、破折や二次虫歯のリスクはありますが、安価に目立たない歯を入れることができる利点があります。歯の色合いに合いやすいので奥歯の詰め物（インレー）にお勧めします。
+    div.imgs2
+      div.imgs2__item
+        img(src=imgPath+"/ceramic/hybridBf.jpg" alt="ハイブリッドセラミック治療前")
+        p 治療前
+      div.imgs2__item
+        img(src=imgPath+"/ceramic/hybridAf.jpg" alt="ハイブリッドセラミック治療後")
+        p 治療後
+  section.ceramic__explain
+    h2.ttl--2 ■&ensp;ラミネートベニア
+    p.ceramic__explain__sentence
+      | 歯の表面を薄く削り、付け爪のようにセラミックの薄片を貼り付けて色のくすみや形態を治します。
+    div.img1
+      img(src=imgPath+"/ceramic/laminate.png" alt="ラミネートベニア")
+      p ラミネートベニア
+    div.imgs2
+      div.imgs2__item
+        img(src=imgPath+"/ceramic/laminate1Bf.jpg" alt="ラミネートベニア治療前")
+        p 治療前
+      div.imgs2__item
+        img(src=imgPath+"/ceramic/laminate1Af.jpg" alt="ラミネートベニア治療後")
+        p 治療後
+    div.imgs2
+      div.imgs2__item
+        img(src=imgPath+"/ceramic/laminate2Bf.jpg" alt="ラミネートベニア治療前")
+        p 治療前
+      div.imgs2__item
+        img(src=imgPath+"/ceramic/laminate2Af.jpg" alt="ラミネートベニア治療後")
+        p 治療後
+  section.ceramic__explain
+    h2.ttl--2 ■&ensp;セラミックインレー
+    p.ceramic__explain__sentence
+      | 詰め物（インレー）に使用するお勧めの材料ですが、自然さ、強度や二次虫歯などを考慮し総合的に判断するとセラミックインレーをお勧めします。<br>自然さは劣るが頑丈なものとなるとジルコニアインレー、手軽に自然な歯となるとハイブリッドインレーになります。<br><br>＊セラミック治療のリスク及び副作用<br>歯ぎしりや噛みしめる力が強い方は破折する可能性があります。治療する歯を削る必要があります。歯の状態によっては神経を取る治療が必要になることがあります。
+    div.imgs2
+      div.imgs2__item
+        img(src=imgPath+"/ceramic/inlayBf.jpg" alt="セラミックインレー治療前")
+        p 治療前
+      div.imgs2__item
+        img(src=imgPath+"/ceramic/inlayAf.jpg" alt="セラミックインレー治療後")
+        p 治療後
+    section.ceramic__explain__cf
+      h3.ttl--3 詰め物（インレー）の比較
+      div.ceramic__explain__cf__item
+        section
+          h4.ttl--4 セラミックインレー
+          p 100%セラミックを使ったもの
+        img(src=imgPath+"/ceramic/ceramicInlay.jpg" alt="セラミックインレー")
+        p ○ 美しさNo.1．自然で透明感のある白色<br>○ 2次むし歯になる可能性が低い<br>○ 金属アレルギーにならない<br>× 極度の衝撃で割れることがある
+      div.ceramic__explain__cf__item
+        section
+          h4.ttl--4 ジルコニアインレー
+          p 金属と同じくらい丈夫で割れないセラミック
+        img(src=imgPath+"/ceramic/zirconiaInlay.jpg" alt="ジルコニアインレー")
+        p ○ 割れにくい<br>○ 白色<br>○ 2次むし歯になる可能性が低い<br>○ 金属アレルギーにならない<br>× セラミックやハイブリッドよりも色が合いにくい
+      div.ceramic__explain__cf__item
+        section
+          h4.ttl--4 ハイブリッドインレー
+          p プラスチックを強化したもの
+        img(src=imgPath+"/ceramic/hybridInlay.jpg" alt="ハイブリッドインレー")
+        p ○ 色が白く、目立たない<br>○ 金属アレルギーにならない<br>× セラミックよりも割れやすい

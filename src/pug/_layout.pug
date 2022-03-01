@@ -1,0 +1,61 @@
+doctype html
+block vars
+include mixin/_nav
+include mixin/_clinicInfo
+include mixin/_officeHours
+html(lang="ja", dir="ltr", prefix="og: http://ogp.me/ns#")
+  head
+    include include/_head
+
+  body(class=key)
+    // ##### ヘッダー #####
+    header.header
+      include include/_header
+      
+    // ##### グローバルナビゲーション #####
+    nav.gnav
+      include include/_gnav
+    
+    // ##### メイン #####
+    main(class=key+"__main")
+      if(key!="top")
+        h1.ttl--1
+          | #{page.name}&emsp;
+          span #{page.nameEng}
+      block contents
+      
+    if(key=="reservation")
+      <iframe class="reservation_cal" type="text/html" frameborder="0" width="100%" height="1000px" src="//airrsv.net/okada-dental-clinic/calendar/embed/" ></iframe>
+
+    // ##### フッター #####
+    footer.footer
+      include include/_footer
+
+    // jquery.min.js
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
+    // slick.min.js
+    script(src="slick/slick.min.js")
+    script(src=jsPath+"/nav.js")
+
+    // ##### 構造化データ #####
+    block script
+      if(key!="top")
+        script(type="application/ld+json").
+          {
+            "@context":"https://schema.org",
+            "@type":"BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type":"ListItem",
+                "position":1,
+                "name":"#{pages["top"].name}",
+                "item":"#{domain+pages["top"].canonicalUrl}"
+              },
+              {
+                "@type":"ListItem",
+                "position":2,
+                "name":"#{pages[key].name}",
+                "item":"#{domain+pages[key].canonicalUrl}"
+              }
+            ]
+          }

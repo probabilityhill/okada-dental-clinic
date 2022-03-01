@@ -1,0 +1,48 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "facility"
+  - var page = pages[key]
+
+block contents
+  section
+    h2.ttl--2 ■&ensp;診察室
+    div.imgDesc
+      img(src=imgPath+"/facility/examRoom.jpg" alt="診療室").imgDesc__img
+      p.imgDesc__desc 各チェアはパーテーションで仕切られており隣が見えないように配慮しています。
+  section
+    h2.ttl--2 ■&ensp;レントゲン
+    div.imgs3
+      div.imgs3__item
+        img(src=imgPath+"/facility/xRay.jpg" alt="レントゲン")
+      div.imgs3__item
+        img(src=imgPath+"/facility/xRayImg.jpg" alt="レントゲン")
+      div.imgs3__item
+        img(src=imgPath+"/facility/xRayResult.jpg" alt="レントゲン")
+    p 当院では、デジタルＸ線画像解析システムを使用しております。<br>フィルムの代わりに高感度CCDセンサーを使用しているため、Ｘ線照射による被曝を軽減（被曝を最大90％以上軽減）できます。そのため、人体への被曝はほぼ無視できるレベルとなります。<br>また、Ｘ線は顔面部のみに照射しますので妊娠中の患者様も安心してレントゲン検査を受けていただけます<br>段階的に拡大等も出来る為、正確な診断にも役立ちます。
+  section
+    h2.ttl--2 ■&ensp;ルーペ（拡大鏡）
+    div.imgDesc
+      img(src=imgPath+"/facility/loupe.jpg" alt="ルーペ（拡大鏡）").imgDesc__img
+      p.imgDesc__desc 治療によって倍率の違うルーペを使い分けて診療しております。ルーペを使うことでより精度の高い治療ができます。
+  section
+    h2.ttl--2 ■&ensp;CO2レーザー（炭酸ガスレーザー，opelaser pro）
+    div.imgDesc
+      img(src=imgPath+"/facility/laser.jpg" alt="CO2レーザー（炭酸ガスレーザー，opelaser pro）").imgDesc__img
+      p.imgDesc__desc 当院ではCO2レーザーを治療に活用しています。<br>CO2レーザーは、殺菌消毒、鎮痛、消炎、切開、止血等に有効で、特に痛みを和らげたり治癒を促進します。<br>歯周病、親知らずの痛み、口内炎、顎関節症、インプラント等、幅広く使用しています。
+  section
+    h2.ttl--2 ■&ensp;オゾン水生成器
+    div.imgDesc
+      img(src=imgPath+"/facility/ozonatedWater.png" alt="オゾン水生成器 pro）").imgDesc__img
+      p.imgDesc__desc オゾン水は残留性がなく安全性が高い除菌、洗浄剤で、器具などに付着している細菌に対して、強力な殺菌、除菌効果があります。<br>当院ではオゾン水を導入してから新しい器械が出ると買い替えを行い現在3台目となります。<br>現在使用しているオゾン水生成器は4ppm(mg/L)以上の高濃度オゾン水を作ることができ、使用器具の確実な除菌を実現しています。
+  section
+    h2.ttl--2 ■&ensp;高圧蒸気滅菌器（オートクレーブ）
+    div.imgDesc
+      img(src=imgPath+"/facility/autoclave.jpg" alt="高圧蒸気滅菌器（オートクレーブ）").imgDesc__img
+      p.imgDesc__desc 高圧蒸気で治療に使用する器具を滅菌します。
+  section
+    h2.ttl--2 ■&ensp;ピエゾサージェリー
+    div.imgDesc
+      img(src=imgPath+"/facility/piezosurgery.jpg" alt="ピエゾサージェリー").imgDesc__img
+      p.imgDesc__desc ピエゾサージェリーは、超音波を利用して骨を切削する手術用医療機器です。<br>骨の中や周囲には血管や神経、軟組織がありますが、この機器は骨にしか反応しませんので、これらを傷つけることなく、安全に手術をすすめることができます。<br>さらに骨へのダメージも少ないため治癒も早まります。困難な抜歯やインプラント治療などの外科手術に使用します。

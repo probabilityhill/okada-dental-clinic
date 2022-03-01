@@ -1,0 +1,42 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "implant"
+  - var page = pages[key]
+
+block contents
+  p.implant__intro
+    | インプラント治療とは、自分の歯を失ってしまった場所のあごの骨に、人工歯根（インプラント）を埋め込みます。その上に被せもの（クラウン）を装着します。<br>入れ歯のようにガタついたりせず、より強く、自分の歯のように咬むことができます。<br>インプラントは骨と結合しやすいチタンという金属でできています。
+  div.imgs2
+    div.imgs2__item
+      img(src=imgPath+"/implant/implant.jpg" alt="インプラント")
+      p インプラント
+    div.imgs2__item
+      img(src=imgPath+"/implant/bridge.jpg" alt="ブリッジ")
+      p ブリッジ
+  p 歯を失ってしまった場合、治療法として入れ歯・ブリッジ・インプラントがあります。
+  dl.implant__dl
+    dt.ttl--4 入れ歯
+    dd.implant__dd 治療法として一番簡易であるが、噛む力、違和感などに問題が起こることが多い。
+    dt.ttl--4 ブリッジ
+    dd.implant__dd 支えとなる歯を削って被せる治療法。支えている歯にトラブルが起こると再治療が必要となり、欠損部分がさらに大きくなることもある。
+    dt.ttl--4 インプラント
+    dd.implant__dd 
+      dl.implant__dl
+        dt.implant__dt メリット
+        dd.implant__dd
+          ul.implant__dd__list
+            li ブリッジのように支えとなる歯が必要ない。残っている歯を削る必要がない。
+            li 強く噛むことができるので残っている歯の負担を減らすことができる。
+            li 違和感がなく、ご自分の歯のように噛むことができる。
+        dt.implant__dt デメリット
+        dd.implant__dd
+          ul.implant__dd__list
+            li 治療期間が長くかかる。
+            li 外科手術であるため、あごの骨のCT検査はもとより、健康状態など十分な検査と診断が必要となる。
+            li 外科手術であるため、痛みや腫れ、出血、その他合併症を起こす可能性がある。
+            li 奥歯の場合、口を大きく開けることができないと手術できないことがある。
+            li インプラントを支えている骨が溶けて無くなっていくインプラント周囲炎というインプラントの歯周病があり、進行するとインプラントが抜ける可能性がある。また、限界以上の力がかかった場合もインプラントは抜ける可能性がある。
+  p このため、当クリニックではインプラントの保証の条件として、術後の検診とメンテナンスを年に数回受けていただくことを条件としています。
+  img(src=imgPath+"/implant/impMaint.jpg" alt="インプラント").implant__img

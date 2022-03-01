@@ -1,0 +1,225 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "top"
+  - var page = pages[key]
+
+block contents
+  // トップ画像
+  div.atf
+    div.atf__imgs
+      figure
+        img(src=imgPath+"/top/hero-1.jpg" alt="治療の様子｜大阪・東大阪市長堂布施駅前のおかだ歯科クリニック")
+      figure
+        img(src=imgPath+"/top/hero-2.jpg" alt="待合室｜大阪・東大阪市長堂布施駅前のおかだ歯科クリニック")
+      figure
+        img(src=imgPath+"/top/hero-3.jpg" alt="カウンセリングの様子｜大阪・東大阪市長堂布施駅前のおかだ歯科クリニック")
+    p.atf__msg
+      span
+        | 私たちは地域の皆様の「ホームドクター」として<br>
+        | 信頼されるよう治療に取り組んでいます
+
+  // クリニック情報
+  section.info
+    +clinicInfo("info")
+    +officeHours("info")
+
+  // お知らせ
+  section.news
+    h2.ttl--1 お知らせ&emsp;
+      span NEWS
+    ul.news__item
+      li インターネット予約を開始しました。（2021/12/02）
+        p メニューの「
+          a(href=pages.reservation.url) 診療予約
+          | 」から予約できます。
+      li
+        a(href=pages.covid19.url) 新型コロナウイルスの感染拡大防止について
+        | （2020/06/03更新）
+        p  ※ご予約なしの突然の来院はご遠慮ください。
+    h3.ttl--2
+      span ■&ensp;休診日&ensp;（2022）
+    p.news__color
+      span.closed &emsp;&emsp;
+      | &thinsp;休診日
+    div.news__cal
+      table.news__cal__table
+        tr.news__cal__table__m
+          th(colspan="7") 3
+        tr.news__cal__table__dH
+          th 日
+          th 月
+          th 火
+          th 水
+          th 木
+          th 金
+          th 土
+        tr.news__cal__table__d
+          td.empty &thinsp;
+          td &thinsp;
+          td 1
+          td 2
+          td.closed 3
+          td 4
+          td 5
+        tr.news__cal__table__d
+          td 6
+          td 7
+          td 8
+          td 9
+          td.closed 10
+          td 11
+          td 12
+        tr.news__cal__table__d
+          td 13
+          td 14
+          td 15
+          td 16
+          td.closed 17
+          td 18
+          td 19
+        tr.news__cal__table__d
+          td 20
+          td.holiday 21
+          td 22
+          td 23
+          td 24
+          td 25
+          td 26
+        tr.news__cal__table__d
+          td 27
+          td 28
+          td 29
+          td 30
+          td.closed 31
+          td &thinsp;
+          td &thinsp;      
+      table.news__cal__table
+          tr.news__cal__table__m
+            th(colspan="7") 4
+          tr.news__cal__table__dH
+            th 日
+            th 月
+            th 火
+            th 水
+            th 木
+            th 金
+            th 土
+          tr.news__cal__table__d
+            td.empty &thinsp;
+            td &thinsp;
+            td &thinsp;
+            td &thinsp;
+            td &thinsp;
+            td 1
+            td 2
+          tr.news__cal__table__d
+            td 3
+            td 4
+            td 5
+            td 6
+            td.closed 7
+            td 8
+            td 9
+          tr.news__cal__table__d
+            td 10
+            td 11
+            td 12
+            td 13
+            td.closed 14
+            td 15
+            td 16
+          tr.news__cal__table__d
+            td 17
+            td 18
+            td 19
+            td 20
+            td.closed 21
+            td 22
+            td 23
+          tr.news__cal__table__d
+            td 24
+            td 25
+            td 26
+            td 27
+            td 28
+            td.holiday 29
+            td 30
+            
+block script
+  script(src=jsPath+"/carousel.js")
+  script(type="application/ld+json").
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "description": "#{pages["top"].description}",
+      "image": {
+        "@type": "ImageObject",
+        "url": "#{domain+pages["top"].image}"
+      },
+      "name": "#{siteName}",
+      "alternateName": "#{siteNameEng}",
+      "url": "#{domain}",
+      "logo": "#{domain+imgPath}/logo.png",
+      "currenciesAccepted": "JPY",
+      "telephone": "#{tel}",
+      // 営業時間
+      "openingHoursSpecification":[
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek":[
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "13:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek":[
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+          ],
+          "opens": "14:30",
+          "closes": "20:00"
+        },
+        {
+          "@type":"OpeningHoursSpecification",
+          "dayOfWeek":"Saturday",
+          "opens": "14:30",
+          "closes": "17:00"
+        }
+      ],
+      // 住所
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress":"#{streetAddress}",
+        "addressLocality":"#{addressLocality}",
+        "addressRegion":"#{addressRegion}",
+        "postalCode":"#{postalCode}",
+        "addressCountry":"JP"
+      },
+      // 位置情報
+      "geo": {
+        "@type":"GeoCoordinates",
+        "latitude":"34.66456",
+        "longitude":"135.562453"
+      }
+    }
+  script(type="application/ld+json").
+    {
+      "@context":"https://schema.org",
+      "@type":"BreadcrumbList",
+      "itemListElement":{
+        "@type":"ListItem",
+        "position":1,
+        "name":"#{pages["top"].name}",
+        "item":"#{domain+pages["top"].canonicalUrl}"
+      }
+    }

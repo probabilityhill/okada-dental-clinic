@@ -1,0 +1,65 @@
+extends _layout
+
+block vars
+  include _config
+  - var key = "doctor"
+  - var page = pages[key]
+
+block contents
+  section
+    div.doctor__msg
+      img(src=imgPath+"/doctor/doctor-1.jpg" alt="院長 岡田秀一｜大阪・東大阪市長堂布施駅前のおかだ歯科クリニック")
+      p.doctor__msg__name
+        | 院長&emsp;岡田 秀一
+      p.doctor__msg__sentence
+        | 私たちは地域の皆様の「ホームドクター」として信頼されるよう、治療に取り組んでいます。また、安心して受診していただけるよう丁寧で分かりやすい説明を心がけております。<br>より良い歯科医療を提供するため、様々な研修会で研鑚を重ねております。「歯」に関するお悩みがあれば、お気軽にご相談ください。
+    h2.ttl--2 経歴
+    table.doctor__career
+      tr
+        th(rowspan="2") 1995年
+        td 長崎大学 歯学部 卒業
+      tr
+        th.displayNone
+        td 藤原歯科医院 勤務
+      tr
+        th 2001年
+        td おかだ歯科クリニック 開設
+    h2.ttl--2 会員・資格
+    ul.doctor__qualification
+      li
+        a(href="http://www.jdshinbi.net/") 日本歯科審美学会会員
+      li
+        a(href="http://www.shika-implant.org/") 日本口腔インプラント学会・専修医
+      li
+        a(href="https://www.j-om.org/") 日本口腔内科学研究会会員
+      li
+        a(href="https://www.higashiosaka-mc.jp/") 市立東大阪医療センター 共同診療登録歯科医師
+  section    
+    div.doctor__msg
+      img(src=imgPath+"/doctor/doctor-2.jpg" alt="院長 岡田秀一｜大阪・東大阪市長堂布施駅前のおかだ歯科クリニック")
+      p.doctor__msg__name
+        | 矯正担当&emsp;岡田 美千代
+      p.doctor__msg__sentence
+        | 矯正治療を担当しております。<br>歯ならびに関するお悩みがあれば、まずは「相談」のご予約をお取り下さい。<br>現在の歯ならびの状態、治療をする場合の流れ、方法、期間、費用などについてお話させていただきます。
+    h2.ttl--2 経歴
+    table.doctor__career
+      tr
+        th 1994年
+        td 長崎大学 歯学部 卒業
+      tr
+        th(rowspan="2") 1994年～1999年
+        td 渡辺矯正歯科クリニック 勤務
+      tr
+        th.displayNone
+        td 愛知学院大学 歯学部歯科矯正学講座研究生
+      tr
+        th 2001年～
+        td おかだ歯科クリニック 勤務
+    h2.ttl--2 会員・資格
+    ul.doctor__qualification
+      li
+        a(href="http://www.jos.gr.jp/") 日本矯正歯科学会会員
+      li
+        a(href="http://www.kokuhoken.or.jp/ktos/") 近畿東海矯正歯科学会会員
+      li
+        a(href="https://bsc-japan.jp/") バイオプログレッシブスタディークラブ会員

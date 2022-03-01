@@ -1,0 +1,34 @@
+mixin officeHours(className)
+  div(class=className+"__hours")
+    table(class=className+"__hours__table")
+      tr
+        th 診療時間
+        th 月
+        th 火
+        th 水
+        th 木
+        th 金
+        th 土
+        th 日祝
+      tr
+        th 10:00-13:00
+        td ●
+        td ●
+        td ●
+        td &thinsp;-&thinsp;
+        td ●
+        td ●
+        td &thinsp;-&thinsp;
+      tr
+        th 14:30-20:00
+        td ●
+        td ●
+        td ●
+        td &thinsp;-&thinsp;
+        td ●
+        td ▲
+        td &thinsp;-&thinsp;
+    p(class=className+"__hours__attent")
+      | ▲…17:00まで<br>祝日がある週は木曜日診療します。
+    p(class=className+"__hours__reserv")
+      | ＊予約制となりますので、お電話でご予約ください。来院の際は健康保険証をお持ちください。

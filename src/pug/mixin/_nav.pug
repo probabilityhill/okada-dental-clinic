@@ -1,0 +1,31 @@
+mixin headerNav(navStruct, navTag, navClass)
+  #{navTag}(class=navClass)
+    ul(class=navClass+"__menu")
+      - for (var i = 0; i < navStruct.length; i++)
+        li(class=navClass+"__menu__item")
+          a(href=navStruct[i]['pageLink'])
+            | #{navStruct[i]['pageName']}<br>
+            span #{navStruct[i]['pageNameEng']}
+          if navStruct[i]['childMenu']!=null
+            ul(class=navClass+"__menu__item__submenu")
+              - for (var j = 0; j < navStruct[i]['childMenu'].length; j++)
+                li(class=navClass+"__menu__item__submenu__item")
+                  a(href=navStruct[i]['childMenu'][j]['pageLink'])
+                    | #{navStruct[i]['childMenu'][j]['pageName']}<br>
+                    span #{navStruct[i]['childMenu'][j]['pageNameEng']}
+
+mixin gnav(navStruct, navTag, navClass)
+  #{navTag}(class=navClass)
+    ul(class=navClass+"__menu")
+      - for (var i = 0; i < navStruct.length; i++)
+        li(class=navClass+"__menu__item")
+          a(href=navStruct[i]['pageLink'])
+            | #{navStruct[i]['pageName']}&emsp;
+            span #{navStruct[i]['pageNameEng']}
+          if navStruct[i]['childMenu']!=null
+            ul(class=navClass+"__menu__item__submenu")
+              - for (var j = 0; j < navStruct[i]['childMenu'].length; j++)
+                li(class=navClass+"__menu__item__submenu__item")
+                  a(href=navStruct[i]['childMenu'][j]['pageLink'])
+                    | #{navStruct[i]['childMenu'][j]['pageName']}&emsp;
+                    span #{navStruct[i]['childMenu'][j]['pageNameEng']}
