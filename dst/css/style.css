@@ -1,4 +1,56 @@
+
+/* line 26 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\style.styl */
+
+/* line 1 : C:\Users\nao\AppData\Local\Prepros\app-7.3.50\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\style.styl */
 @charset "UTF-8";
+
+/* line 297 : C:\Users\nao\AppData\Local\Prepros\app-7.3.50\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\setting\_path.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\setting\_path.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\setting\_color.styl */
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\setting\_color.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_mq.styl */
+
+/* line 23 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_mq.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_align.styl */
+
+/* line 36 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_align.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_color.styl */
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_color.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_border.styl */
+
+/* line 8 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_border.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_font.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_font.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_btn.styl */
+
+/* line 15 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_btn.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
+
+/* line 29 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+
+/* line 17 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
 .ttl--1 {
   color: #1978db;
   font-family: 'Kiwi Maru', sans-serif;
@@ -6,21 +58,29 @@
   font-weight: 500;
   margin: 2.5rem 0;
 }
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
 .ttl--1 span {
   font-size: 70%;
 }
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
 .ttl--2 {
   font-family: 'Kiwi Maru', sans-serif;
   font-size: 120%;
   font-weight: 500;
   margin: 3rem 0 2rem;
 }
+
+/* line 16 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
 .ttl--3 {
   font-family: 'Kiwi Maru', sans-serif;
   font-size: 110%;
   font-weight: 500;
   margin: 1.5rem 0 1rem;
 }
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
 .ttl--4 {
   font-family: 'Kiwi Maru', sans-serif;
   font-size: 110%;
@@ -28,99 +88,160 @@
   margin: 1rem 0 0.5rem;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 30 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
   .ttl--1 {
     font-size: 180%;
     margin: 4rem 0;
   }
+
+/* line 33 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
   .ttl--1 span {
     font-size: 90%;
   }
+
+/* line 35 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
   .ttl--2 {
     font-size: 150%;
   }
+
+/* line 37 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
   .ttl--3 {
     font-size: 130%;
   }
+
+/* line 39 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
   .ttl--4 {
     font-size: 110%;
   }
 }
+
+/* line 40 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
 .img1 {
   margin: 2rem 0 4rem;
 }
+
+/* line 3 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
 .img1 p {
   text-align: center;
 }
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
 .imgs2 {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
 }
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
+
+/* line 11 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
 .imgs2__item p {
   text-align: center;
 }
+
+/* line 14 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
 .imgs3 {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+/* line 18 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
 .imgs3__item p {
   text-align: center;
 }
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
 .imgDesc {
   margin: 1rem 0;
 }
+
+/* line 24 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
 .imgDesc__img {
   display: block;
   margin: 1rem auto;
   width: 40%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 30 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
   .img1 {
     width: 70%;
   }
+
+/* line 32 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
   .imgs2 {
     width: 70%;
   }
+
+/* line 34 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
   .imgs3 {
     width: 90%;
   }
+
+/* line 36 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
   .imgDesc {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 3fr;
   }
+
+/* line 40 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
   .imgDesc__img {
     margin: 1rem 0;
     width: 100%;
   }
 }
+
+/* line 42 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\project\_imgs.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
+
+/* line 8 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 *,
 ::before,
 ::after {
   box-sizing: border-box;
 }
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 ::before,
 ::after {
   text-decoration: inherit; /* 1 */
   vertical-align: inherit; /* 2 */
 }
+
+/* line 35 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 html {
   cursor: default; /* 1 */
-  line-height: 1.5; /* 2 */ /* 3 */
+  line-height: 1.5; /* 2 */
+  -moz-tab-size: 4; /* 3 */
   tab-size: 4; /* 3 */
   -webkit-tap-highlight-color: transparent /* 4 */;
   -ms-text-size-adjust: 100%; /* 5 */
   -webkit-text-size-adjust: 100%; /* 5 */
   word-break: break-word; /* 6 */
 }
+
+/* line 53 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 body {
   margin: 0;
 }
+
+/* line 62 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
+/* line 74 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 dl dl,
 dl ol,
 dl ul,
@@ -128,49 +249,70 @@ ol dl,
 ul dl {
   margin: 0;
 }
+
+/* line 86 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 ol ol,
 ol ul,
 ul ol,
 ul ul {
   margin: 0;
 }
+
+/* line 98 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 hr {
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
+
+/* line 107 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 main {
   display: block;
 }
+
+/* line 115 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 nav ol,
 nav ul {
   list-style: none;
   padding: 0;
 }
+
+/* line 126 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
+
+/* line 138 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 a {
   background-color: transparent;
 }
+
+/* line 146 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 abbr[title] {
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
+
+/* line 155 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 b,
 strong {
   font-weight: bolder;
 }
+
+/* line 165 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 code,
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
+
+/* line 176 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 small {
   font-size: 80%;
 }
+
+/* line 187 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 audio,
 canvas,
 iframe,
@@ -179,130 +321,198 @@ svg,
 video {
   vertical-align: middle;
 }
+
+/* line 200 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 audio,
 video {
   display: inline-block;
 }
+
+/* line 209 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
+
+/* line 218 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 iframe {
   border-style: none;
 }
+
+/* line 226 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 img {
   border-style: none;
 }
+
+/* line 234 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 svg:not([fill]) {
   fill: currentColor;
 }
+
+/* line 242 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 svg:not(:root) {
   overflow: hidden;
 }
+
+/* line 253 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 table {
   border-collapse: collapse;
 }
+
+/* line 264 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 button,
 input,
 select {
   margin: 0;
 }
+
+/* line 275 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 button {
   overflow: visible; /* 1 */
   text-transform: none; /* 2 */
 }
+
+/* line 284 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
 }
+
+/* line 296 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 fieldset {
   border: 1px solid #a0a0a0; /* 1 */
   padding: 0.35em 0.75em 0.625em; /* 2 */
 }
+
+/* line 305 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 input {
   overflow: visible;
 }
+
+/* line 314 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 legend {
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
   white-space: normal; /* 1 */
 }
+
+/* line 326 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 progress {
   display: inline-block; /* 1 */
   vertical-align: baseline; /* 2 */
 }
+
+/* line 335 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 select {
   text-transform: none;
 }
+
+/* line 345 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 textarea {
   margin: 0; /* 1 */
   overflow: auto; /* 2 */
   resize: vertical; /* 3 */
 }
+
+/* line 355 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 [type="checkbox"],
 [type="radio"] {
   padding: 0;
 }
+
+/* line 365 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
+
+/* line 374 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
   height: auto;
 }
+
+/* line 383 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 ::-webkit-input-placeholder {
   color: inherit;
   opacity: 0.54;
 }
+
+/* line 392 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+
+/* line 401 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
+/* line 410 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 ::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
+
+/* line 419 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 :-moz-focusring {
   outline: 1px dotted ButtonText;
 }
+
+/* line 427 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 :-moz-ui-invalid {
   box-shadow: none;
 }
+
+/* line 438 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 details {
   display: block;
 }
+
+/* line 446 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 dialog {
   background-color: #fff;
   border: solid;
   color: #000;
   display: block;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
   height: fit-content;
   left: 0;
   margin: auto;
   padding: 1em;
   position: absolute;
   right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
   width: fit-content;
 }
+
+/* line 464 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 dialog:not([open]) {
   display: none;
 }
+
+/* line 472 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 summary {
   display: list-item;
 }
+
+/* line 483 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 canvas {
   display: inline-block;
 }
+
+/* line 491 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 template {
   display: none;
 }
+
+/* line 504 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 a,
 area,
 button,
@@ -311,29 +521,44 @@ label,
 select,
 summary,
 textarea,
-[tabindex] { /* 1 */
+[tabindex] {
+  -ms-touch-action: manipulation; /* 1 */
   touch-action: manipulation; /* 2 */
 }
+
+/* line 521 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 [hidden] {
   display: none;
 }
+
+/* line 532 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 [aria-busy="true"] {
   cursor: progress;
 }
+
+/* line 540 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 [aria-controls] {
   cursor: pointer;
 }
+
+/* line 549 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 [aria-disabled="true"],
 [disabled] {
   cursor: not-allowed;
 }
+
+/* line 559 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 [aria-hidden="false"][hidden] {
   display: initial;
 }
+
+/* line 563 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 [aria-hidden="false"][hidden]:not(:focus) {
   clip: rect(0, 0, 0, 0);
   position: absolute;
 }
+
+/* line 569 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
 h1,
 h2,
 h3,
@@ -342,9 +567,17 @@ h5,
 h6 {
   font-size: 100%;
 }
+
+/* line 570 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_sanitize.styl */
+
+/* line 570 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 html {
   font-size: 62.5%;
 }
+
+/* line 4 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 body {
   background-color: #fff;
   color: #666;
@@ -353,67 +586,107 @@ body {
   font-weight: 500;
   margin: 0;
 }
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 main:not(.top__main) {
   margin: 5vw;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 16 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
   main:not(.top__main):not(.access__main) {
     padding-right: 30vw;
   }
 }
 @media print, screen and (min-width: 520px) {
+
+/* line 21 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
   body {
     font-size: 1.8rem;
   }
 }
 @media print, screen and (min-width: 1025px) {
+
+/* line 25 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
   body {
     font-size: 1.6rem;
   }
 }
+
+/* line 28 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 * {
   float: none;
   position: static;
 }
+
+/* line 32 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 a {
   color: inherit;
   text-decoration: none;
 }
+
+/* line 36 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 img {
   width: 100%;
 }
+
+/* line 39 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 li {
   list-style: none;
 }
+
+/* line 42 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 table {
   width: 100%;
 }
+
+/* line 44 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 th {
   text-align: center;
 }
+
+/* line 46 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 td {
   padding: 0.3rem;
 }
+
+/* line 49 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 ::selection {
   color: #fff;
   background-color: #1978db;
 }
+
+/* line 52 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 ::moz-selection {
   color: #fff;
   background-color: #1978db;
 }
+
+/* line 56 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 ::-webkit-scrollbar {
   width: 1.5vw;
 }
+
+/* line 58 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 ::-webkit-scrollbar-thumb {
   background-color: #1978db;
 }
+
+/* line 60 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 ::-webkit-scrollbar-track {
   background: #666;
 }
+
+/* line 63 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
 .displayNone {
   display: none;
 }
+
+/* line 64 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\foundation\_base.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .header {
   background-color: #1978db;
   color: #fff;
@@ -425,11 +698,15 @@ td {
   z-index: 99999;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .header {
     grid-template-columns: 24vw auto;
     grid-template-rows: 6vw;
   }
 }
+
+/* line 14 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .headerLogo {
   display: flex;
   justify-content: center;
@@ -437,24 +714,36 @@ td {
   grid-area: 1/1/span 1/span 1;
   margin: 0;
 }
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .headerNavSp {
   grid-area: 1/2/span 1/span 1;
 }
+
+/* line 21 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .headerNavSp__menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100%;
   margin: 0;
 }
+
+/* line 26 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
+
+/* line 27 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .headerNavSp__menu__item--1 a {
   display: block;
   height: 15vw;
   width: 15vw;
 }
+
+/* line 31 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .headerNavSp__menu__item--1 a:hover::before {
   background-color: #fff;
   color: #1978db;
 }
+
+/* line 33 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .headerNavSp__menu__item--1 a::before {
   display: flex;
   justify-content: center;
@@ -464,15 +753,23 @@ td {
   height: 100%;
   font-family: "Material Icons Outlined";
 }
+
+/* line 39 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
+
+/* line 40 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .headerNavSp__menu__item--2 a {
   display: block;
   height: 15vw;
   width: 15vw;
 }
+
+/* line 44 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .headerNavSp__menu__item--2 a:hover::before {
   background-color: #fff;
   color: #1978db;
 }
+
+/* line 46 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .headerNavSp__menu__item--2 a::before {
   display: flex;
   justify-content: center;
@@ -483,25 +780,35 @@ td {
   font-family: "Material Icons Outlined";
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 59 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavSp {
     display: none;
   }
 }
+
+/* line 62 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
 .headerNavPc {
   display: none;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 65 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavPc {
     display: grid;
     font-weight: 600;
     grid-area: 1/2/span 1/span 1;
   }
+
+/* line 69 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavPc__menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 6vw;
     margin: 0;
   }
+
+/* line 74 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavPc__menu__item {
     display: flex;
     justify-content: center;
@@ -509,23 +816,33 @@ td {
     text-align: center;
     position: relative;
   }
+
+/* line 78 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavPc__menu__item:hover {
     background-color: #fff;
     color: #1978db;
   }
+
+/* line 80 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavPc__menu__item a {
     display: block;
     width: 100%;
   }
+
+/* line 83 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavPc__menu__item a span {
     font-size: 1.2rem;
   }
+
+/* line 85 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavPc__menu__item__submenu {
     display: none;
     position: absolute;
     top: 6vw;
     width: 100%;
   }
+
+/* line 90 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavPc__menu__item__submenu__item {
     background-color: #ebff54;
     display: flex;
@@ -534,15 +851,25 @@ td {
     height: 6vw;
     padding: 1rem;
   }
+
+/* line 95 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavPc__menu__item__submenu__item:hover {
     background-color: #1978db;
     color: #fff;
   }
+
+/* line 97 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
   .headerNavPc__menu__item__submenu__item a {
     display: block;
     width: 100%;
   }
 }
+
+/* line 99 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_header.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .gnavToggle {
   display: flex;
   justify-content: center;
@@ -554,6 +881,8 @@ td {
   width: 14.285714285714286vw;
   z-index: 999999;
 }
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .gnavToggle__btn--open,
 .gnavToggle__btn--open::before,
 .gnavToggle__btn--open::after {
@@ -566,28 +895,42 @@ td {
   transition: all 0.3s;
   width: 7vw;
 }
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .gnavToggle__btn--close {
   background-color: transparent;
 }
+
+/* line 21 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .gnavToggle__btn--open::before {
   bottom: 2.5vw;
 }
+
+/* line 23 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .gnavToggle__btn--close::before {
   bottom: 0;
   transform: rotate(45deg);
 }
+
+/* line 26 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .gnavToggle__btn--open::after {
   top: 2.5vw;
 }
+
+/* line 28 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .gnavToggle__btn--close::after {
   top: 0;
   transform: rotate(-45deg);
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 33 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
   .gnavToggle {
     display: none;
   }
 }
+
+/* line 37 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent {
   background-color: #1978db;
   font-weight: 600;
@@ -602,15 +945,21 @@ td {
   width: 100%;
   z-index: 999;
 }
+
+/* line 50 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent::-webkit-scrollbar {
   width: 0;
 }
+
+/* line 52 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent__menu {
   display: grid;
   grid-row: 2/span 1;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   height: 80vh;
 }
+
+/* line 57 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent__menu__item {
   display: flex;
   align-items: center;
@@ -618,15 +967,21 @@ td {
   padding-left: 10vw;
   position: relative;
 }
+
+/* line 62 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent__menu__item:hover {
   background-color: #fff;
   color: #1978db;
 }
+
+/* line 64 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent__menu__item a {
   display: block;
   font-size: 4vw;
   width: 100%;
 }
+
+/* line 68 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent__menu__item__btn {
   height: 10vh;
   left: 0;
@@ -634,6 +989,8 @@ td {
   top: 0;
   width: 100vw;
 }
+
+/* line 74 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent__menu__item__submenu {
   background-color: #ebff54;
   display: none;
@@ -643,6 +1000,8 @@ td {
   width: 100%;
   z-index: 999;
 }
+
+/* line 82 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent__menu__item__submenu__item {
   display: flex;
   justify-content: center;
@@ -650,55 +1009,94 @@ td {
   height: 10vh;
   padding: 5vw 10vw;
 }
+
+/* line 86 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent__menu__item__submenu__item:hover {
   background-color: #1978db;
   color: #fff;
 }
+
+/* line 88 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
 .navContent__menu__item__submenu__item a {
   display: block;
   width: 100%;
 }
+
+/* line 90 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_gnav.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_footer.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_footer.styl */
 .footer {
   background-color: #1978db;
   color: #fff;
   padding: 5vw;
 }
+
+/* line 4 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_footer.styl */
 .footer__name {
   font-size: 120%;
 }
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_footer.styl */
 .footer__copyright {
   font-size: 2vw;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_footer.styl */
   .footer {
     padding: 3vw 5vw 1vw;
   }
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_footer.styl */
   .footer__address {
     margin-bottom: 2vw;
   }
+
+/* line 14 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_footer.styl */
   .footer__copyright {
     font-size: 80%;
   }
 }
+
+/* line 15 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\common\_footer.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_access.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_access.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_access.styl */
 .access__img {
   display: grid;
 }
+
+/* line 4 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_access.styl */
 .access__img__item {
   margin-top: 2rem;
 }
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_access.styl */
 .access__info {
   margin-top: 8rem;
 }
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .access__info__clinic {
+  border-radius: 1rem;
   background-color: #1978db;
   color: #fff;
   padding: 4vw;
 }
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .access__info__clinic__dir {
   padding: 0 1rem;
   position: relative;
   text-align: center;
 }
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .access__info__clinic__dir::before {
   background-color: #fff;
   content: "";
@@ -708,16 +1106,22 @@ td {
   top: calc(50% - 1px);
   width: 100%;
 }
+
+/* line 18 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .access__info__clinic__dir span {
   background-color: #1978db;
   padding: 0 1rem;
   position: relative;
 }
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .access__info__clinic__btn {
   display: grid;
   grid-gap: 3vw;
   grid-template-columns: 1fr 1fr;
 }
+
+/* line 26 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .access__info__clinic__btn__tel {
   background-color: #fff;
   border-radius: 1rem;
@@ -727,15 +1131,21 @@ td {
   padding: 1rem;
   text-align: center;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_btn.styl */
 .access__info__clinic__btn__tel::before {
   content: "\e0b0";
   font-family: "Material Icons Outlined";
   vertical-align: middle;
 }
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_btn.styl */
 .access__info__clinic__btn__tel:hover {
   background-color: #ebff54;
   color: #1978db;
 }
+
+/* line 28 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .access__info__clinic__btn__access {
   background-color: #fff;
   border-radius: 1rem;
@@ -745,47 +1155,78 @@ td {
   padding: 1rem;
   text-align: center;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_btn.styl */
 .access__info__clinic__btn__access::before {
   content: "\e0c8";
   font-family: "Material Icons Outlined";
   vertical-align: middle;
 }
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_btn.styl */
 .access__info__clinic__btn__access:hover {
   background-color: #ebff54;
   color: #1978db;
 }
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .access__info__hours {
+  border-radius: 1rem;
   background-color: #1978db;
   color: #fff;
   margin-top: 5vw;
   padding: 4vw 4vw 3vw;
 }
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .access__info__hours__table {
   text-align: center;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .access__info__hours__table th,
 .access__info__hours__table td {
   border: solid 2px #fff;
   font-weight: 500;
 }
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .access__info__hours__reserv {
   margin-top: 2vw;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_access.styl */
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_access.styl */
   .access__img {
     display: grid;
     grid-gap: 5vw;
     grid-template-columns: 1fr 1fr;
   }
+
+/* line 17 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_access.styl */
   .access__info {
     display: grid;
     grid-gap: 5vw;
     grid-template-columns: 1fr 1fr;
   }
+
+/* line 16 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
   .access__info__hours {
     margin-top: 0;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
+
+/* line 3 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
+
+/* line 4 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
 .ceramic__explain__cf__item {
   display: grid;
   grid-column-gap: 1rem;
@@ -793,73 +1234,147 @@ td {
   grid-template-rows: auto auto;
   margin-top: 2rem;
 }
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
 .ceramic__explain__cf__item section {
   grid-area: 1/1/span 1/span 1;
 }
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
 .ceramic__explain__cf__item img {
   grid-area: 1/2/span 1/span 1;
   margin: 1rem auto auto;
 }
+
+/* line 15 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
 .ceramic__explain__cf__item p {
   grid-area: 2/1/span 1/span 2;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
+
+/* line 20 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
+
+/* line 21 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
   .ceramic__explain__cf__item {
     grid-template-columns: 3fr 1fr;
     width: 80%;
   }
+
+/* line 25 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_ceramic.styl */
   .ceramic__explain__cf__item img {
     grid-area: 1/2/span 2/span 1;
     margin: 1rem auto auto;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_concept.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_concept.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_concept.styl */
 .concept__main img {
   width: 70%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 5 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_concept.styl */
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_concept.styl */
   .concept__main img {
     width: 30vw;
   }
+
+/* line 8 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_concept.styl */
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_concept.styl */
   .concept__sentence {
     width: 50vw;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_covid19.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_covid19.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_covid19.styl */
+
+/* line 3 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_covid19.styl */
 .covid__ul li {
   list-style: disc;
 }
+
+/* line 5 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_covid19.styl */
 .covid__attn {
   color: #f55;
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
+
+/* line 3 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
 .denture__ul li {
   list-style: disc;
 }
+
+/* line 5 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
 .denture__dd {
   margin-bottom: 1rem;
 }
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
 .denture__dd__ul {
   padding-left: 0;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
 .denture__dd__ul li {
   list-style: disc;
 }
+
+/* line 11 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
 .denture__explain__img1 {
   display: block;
   margin: 0 auto;
   width: 50%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 18 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
+
+/* line 20 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_denture.styl */
   .denture__explain__img1 {
     margin: 0;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
 .doctor__msg {
   display: grid;
   grid-template-columns: 2fr 5fr;
   grid-template-rows: auto auto;
 }
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
 .doctor__msg img {
   grid-area: 1/1/span 1/span 1;
 }
+
+/* line 8 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
 .doctor__msg__name {
   display: flex;
   justify-content: center;
@@ -870,171 +1385,325 @@ td {
   grid-area: 1/2/span 1/span 1;
   margin: 0;
 }
+
+/* line 14 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
 .doctor__msg__sentence {
   grid-area: 2/1/span 1/span 2;
   margin-bottom: 0;
 }
+
+/* line 17 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
+
+/* line 18 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
 .doctor__career th {
   border: solid 2px #666;
   font-weight: inherit;
   text-align: center;
 }
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
 .doctor__career td {
   border: solid 2px #666;
 }
+
+/* line 24 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
 .doctor__qualification {
   margin-bottom: 5rem;
   padding-left: 3rem;
 }
+
+/* line 27 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
 .doctor__qualification li {
   list-style-type: square;
 }
+
+/* line 29 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
 .doctor__qualification li a {
   text-decoration: underline;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 33 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
+
+/* line 34 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
   .doctor__msg {
     grid-template-columns: 10vw 30vw;
   }
+
+/* line 36 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_doctor.styl */
   .doctor__career {
     width: 40vw;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
+
+/* line 3 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
 .general__caries__explain {
   display: grid;
   grid-template-columns: 11fr 5fr;
 }
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
 .general__caries__explain img {
   margin: auto 0;
   padding-left: 2rem;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
 .general__wisdomTooth__img {
   width: calc((90vw -2rem) / 2);
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 14 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
+
+/* line 15 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
+
+/* line 16 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
   .general__caries__explain {
     grid-template-columns: 5fr 1fr;
   }
+
+/* line 18 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_general.styl */
   .general__wisdomTooth__img {
     width: 35%;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_implant.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_implant.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_implant.styl */
 .implant__dl {
   margin-left: 2rem;
 }
+
+/* line 4 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_implant.styl */
 .implant__dd {
   margin: auto auto 1rem 0;
 }
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_implant.styl */
 .implant__dd__list {
   padding-left: 2rem;
 }
+
+/* line 8 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_implant.styl */
 .implant__dd__list li {
   list-style: disc;
 }
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_implant.styl */
 .implant__img {
   display: grid;
   margin: 0 auto;
   width: 40%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 16 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_implant.styl */
+
+/* line 17 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_implant.styl */
   .implant__img {
     margin: 0;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
+
+/* line 3 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
 .orth__adult__merit li {
   list-style-type: square;
 }
+
+/* line 5 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
 .orth__process__twoweeks {
   text-align: center;
   padding-top: 0.8rem;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
 .orth__process__arrow {
   font-size: 6vw;
   text-align: center;
 }
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
 .orth__process__item {
   background-color: #666;
   color: #fff;
   padding: 1rem;
 }
+
+/* line 16 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
 .orth__process__item .ttl--3 {
   margin: 0.5rem;
   text-align: center;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 21 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
   .orth__process {
     width: 40vw;
   }
+
+/* line 24 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
   .orth__process__arrow {
     font-size: 2vw;
     margin: 0.5rem;
   }
+
+/* line 27 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_orthodontic.styl */
   .orth__process__item {
     padding: 1.5rem;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
+
+/* line 3 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
 .perio__explain__img {
   display: grid;
   grid-template-rows: auto auto;
 }
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
 .perio__explain__img__txt {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
 .perio__explain__img__txt p {
   font-size: 3vw;
   text-align: center;
 }
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
 .perio__treatment__img {
   width: 50vw;
 }
+
+/* line 15 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
 .perio__treatment__conc {
   margin-top: 3rem;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
+
+/* line 20 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
+
+/* line 21 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
   .perio__explain__img {
     width: 70%;
   }
+
+/* line 23 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
+
+/* line 24 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
   .perio__explain__img__txt p {
     font-size: inherit;
   }
+
+/* line 26 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
+
+/* line 27 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_perio.styl */
   .perio__treatment__img {
     width: 20vw;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_price.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_price.styl */
 .price__table {
   border-collapse: collapse;
   margin-bottom: 3rem;
 }
+
+/* line 4 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_price.styl */
 .price__table th {
   background-color: #666;
   border: 2px solid #666;
   color: #fff;
 }
+
+/* line 8 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_price.styl */
 .price__table td {
   border: 2px solid #666;
 }
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_price.styl */
 .price__table td:nth-child(even) {
   text-align: center;
   width: 35%;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 14 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_price.styl */
+
+/* line 15 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_price.styl */
+
+/* line 16 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_price.styl */
   .price__table td:nth-child(even) {
     width: 30%;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_recruit.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_recruit.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_recruit.styl */
 .recruit__main {
   height: 80vh;
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .slick-slide {
   margin: 0;
 }
+
+/* line 3 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .slick-slide:focus {
   outline: none;
 }
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .top__main {
   padding-bottom: 5vw;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .atf__msg {
   color: #1978db;
   font-size: 3.5vw;
@@ -1043,27 +1712,42 @@ td {
   padding: 5vw 3vw 0;
   text-align: center;
 }
+
+/* line 17 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .atf__msg span {
   background: linear-gradient(transparent 60%, #ebff54 60%);
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 21 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
   .atf__msg {
     font-size: 2.5vw;
   }
 }
+
+/* line 25 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .info {
   padding: 5vw;
 }
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .info__clinic {
+  border-radius: 1rem;
   background-color: #1978db;
   color: #fff;
   padding: 4vw;
 }
+
+/* line 6 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .info__clinic__dir {
   padding: 0 1rem;
   position: relative;
   text-align: center;
 }
+
+/* line 10 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .info__clinic__dir::before {
   background-color: #fff;
   content: "";
@@ -1073,16 +1757,22 @@ td {
   top: calc(50% - 1px);
   width: 100%;
 }
+
+/* line 18 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .info__clinic__dir span {
   background-color: #1978db;
   padding: 0 1rem;
   position: relative;
 }
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .info__clinic__btn {
   display: grid;
   grid-gap: 3vw;
   grid-template-columns: 1fr 1fr;
 }
+
+/* line 26 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .info__clinic__btn__tel {
   background-color: #fff;
   border-radius: 1rem;
@@ -1092,15 +1782,21 @@ td {
   padding: 1rem;
   text-align: center;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_btn.styl */
 .info__clinic__btn__tel::before {
   content: "\e0b0";
   font-family: "Material Icons Outlined";
   vertical-align: middle;
 }
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_btn.styl */
 .info__clinic__btn__tel:hover {
   background-color: #ebff54;
   color: #1978db;
 }
+
+/* line 28 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_clinicInfo.styl */
 .info__clinic__btn__access {
   background-color: #fff;
   border-radius: 1rem;
@@ -1110,47 +1806,74 @@ td {
   padding: 1rem;
   text-align: center;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_btn.styl */
 .info__clinic__btn__access::before {
   content: "\e0c8";
   font-family: "Material Icons Outlined";
   vertical-align: middle;
 }
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_btn.styl */
 .info__clinic__btn__access:hover {
   background-color: #ebff54;
   color: #1978db;
 }
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .info__hours {
+  border-radius: 1rem;
   background-color: #1978db;
   color: #fff;
   margin-top: 5vw;
   padding: 4vw 4vw 3vw;
 }
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .info__hours__table {
   text-align: center;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .info__hours__table th,
 .info__hours__table td {
   border: solid 2px #fff;
   font-weight: 500;
 }
+
+/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .info__hours__reserv {
   margin-top: 2vw;
 }
+
+/* line 30 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .news {
   padding: 0 5vw;
 }
+
+/* line 32 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
+
+/* line 33 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .news__item li {
   list-style-type: disc;
 /*
       &:first-child, &:nth-child(2)
         color c-txt-3*/
 }
+
+/* line 38 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .news__item a {
   text-decoration: underline;
 }
+
+/* line 40 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .news__color {
   margin-top: 3rem;
 }
+
+/* line 42 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
+
+/* line 43 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .news__cal__table {
   height: 60vw;
   margin: 0 auto 7vw;
@@ -1158,38 +1881,58 @@ td {
   text-align: center;
   width: 60vw;
 }
+
+/* line 49 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .news__cal__table td:first-child:not(.empty) {
   background-color: #ebff54;
   color: #f55;
 }
+
+/* line 52 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .news__cal__table td:last-child:not(.empty) {
   color: #1978db;
 }
+
+/* line 54 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .news__cal__table th,
 .news__cal__table td {
   border: solid 2px #666;
 }
+
+/* line 56 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .news__cal__table__m {
   background-color: #666;
   color: #fff;
   font-size: 120%;
 }
+
+/* line 60 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .closed {
   background-color: #ebff54;
 }
+
+/* line 62 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
 .holiday {
   background-color: #ebff54;
   color: #f55;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 67 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
   .info {
     display: grid;
     grid-gap: 5vw;
     grid-template-columns: 1fr 1fr;
   }
+
+/* line 16 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
   .info__hours {
     margin-top: 0;
   }
+
+/* line 72 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
+
+/* line 73 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
   .news__cal {
     display: grid;
     grid-gap: 5vw;
@@ -1197,25 +1940,46 @@ td {
     height: 25vw;
     width: 45vw;
   }
+
+/* line 79 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_top.styl */
   .news__cal__table {
     height: 20vw;
     width: 20vw;
   }
 }
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_whitening.styl */
+
+/* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_whitening.styl */
+
+/* line 2 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_whitening.styl */
+
+/* line 3 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_whitening.styl */
 .whitening__explain__img1 {
   display: block;
   margin: 1rem auto;
   width: 50vw;
 }
+
+/* line 7 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_whitening.styl */
 .whitening__explain__attent {
   padding-left: 1.5rem;
 }
+
+/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_whitening.styl */
 .whitening__explain__attent li {
   list-style: disc;
 }
 @media print, screen and (orientation: landscape) and (min-width: 1024px) {
+
+/* line 13 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_whitening.styl */
+
+/* line 14 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_whitening.styl */
+
+/* line 15 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\page\_whitening.styl */
   .whitening__explain__img1 {
     margin: 1rem auto 1rem 0;
     width: 20vw;
   }
 }
+/*# sourceMappingURL=style.css.map */
