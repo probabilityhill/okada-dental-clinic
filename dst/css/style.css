@@ -46,7 +46,7 @@
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 
-/* line 17 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+/* line 27 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 
 /* line 1 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\component\_heading.styl */
 
@@ -1281,17 +1281,36 @@ td {
 
 /* line 7 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .access__info__hours__table {
+  border: 2px solid #fff;
+  border-collapse: separate;
+  border-radius: 1rem;
+  border-spacing: 0;
   text-align: center;
 }
 
-/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+/* line 13 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .access__info__hours__table th,
 .access__info__hours__table td {
-  border: solid 2px #fff;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
   font-weight: 500;
 }
 
-/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+/* line 17 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+.access__info__hours__table th:last-child,
+.access__info__hours__table td:last-child {
+  border-right: none;
+}
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+
+/* line 20 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+.access__info__hours__table tr:last-child th,
+.access__info__hours__table tr:last-child td {
+  border-bottom: none;
+}
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .access__info__hours__reserv {
   margin-top: 2vw;
 }
@@ -1317,7 +1336,7 @@ td {
     grid-template-columns: 1fr 1fr;
   }
 
-/* line 16 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+/* line 26 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
   .access__info__hours {
     margin-top: 0;
   }
@@ -2026,17 +2045,36 @@ td {
 
 /* line 7 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .info__hours__table {
+  border: 2px solid #fff;
+  border-collapse: separate;
+  border-radius: 1rem;
+  border-spacing: 0;
   text-align: center;
 }
 
-/* line 9 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+/* line 13 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .info__hours__table th,
 .info__hours__table td {
-  border: solid 2px #fff;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
   font-weight: 500;
 }
 
-/* line 12 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+/* line 17 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+.info__hours__table th:last-child,
+.info__hours__table td:last-child {
+  border-right: none;
+}
+
+/* line 19 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+
+/* line 20 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+.info__hours__table tr:last-child th,
+.info__hours__table tr:last-child td {
+  border-bottom: none;
+}
+
+/* line 22 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
 .info__hours__reserv {
   margin-top: 2vw;
 }
@@ -2122,7 +2160,7 @@ td {
     grid-template-columns: 1fr 1fr;
   }
 
-/* line 16 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
+/* line 26 : C:\Users\nao\Desktop\code\Github\okada-dental-clinic\src\stylus\mixin\_officeHours.styl */
   .info__hours {
     margin-top: 0;
   }

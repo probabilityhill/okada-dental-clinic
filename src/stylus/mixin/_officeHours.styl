@@ -5,10 +5,20 @@ officeHours()
     margin-top 5vw
     padding 4vw 4vw 3vw
     &__table
+      border 2px solid c-bg-1
+      border-collapse separate
+      border-radius 1rem
+      border-spacing 0
       text-align center
       & th, & td
-        border solid 2px c-bg-1
+        border-bottom 2px solid c-bg-1
+        border-right 2px solid c-bg-1
         font-weight 500
+        &:last-child
+          border-right none
+      & tr:last-child
+        & th, & td
+          border-bottom none
     &__reserv
       margin-top 2vw
 
