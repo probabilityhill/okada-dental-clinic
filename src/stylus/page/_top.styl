@@ -46,8 +46,10 @@
       & td:first-child:not(.empty)
         background-color c-bg-2
         color c-txt-3
-      & td:last-child:not(.empty)
+      & td:last-child
         color c-theme-1
+      & td:last-child.holiday
+        color c-txt-3
       & th, & td
         border solid 2px c-txt-1
       &__m
