@@ -1,0 +1,72 @@
+//- カレンダー生成処理
+//- 引数:
+//-   month: X月
+//-   days: 月の日数
+//-   firstDayIdx: 1日の曜日（0: 日曜日, 1: 月曜日, ... , 6: 土曜日）
+//-   holidays: 祝日の配列
+//- 使用例:
+//-   +calendar(2, 28, 6, [11, 24])
+
+mixin calendar(month, days, firstDayIdx, holidays)
+  -
+    const WEEK_DAY = Object.freeze({
+      SUNDAY: 0, MONDAY: 1, TUESDAY: 2, WEDNESDAY: 3,
+      THURSDAY: 4, FRIDAY: 5, SATURDAY: 6
+    });
+    const WEEK_DAYS = Object.keys(WEEK_DAY).length
+
+    //- 週数
+    const weeks = parseInt((firstDayIdx + days - 1) / WEEK_DAYS) + 1
+
+    //- 当該週の木曜日に診療するかどうか
+    const shouldOpenOnThursday = new Array(weeks).fill(false);
+
+  //- 祝日ループ
+  each holiday in holidays
+    - const holidayIdx = firstDayIdx + holiday - 1;
+    - const weekIdx = parseInt(holidayIdx / WEEK_DAYS)
+    - const dayIdx = holidayIdx % WEEK_DAYS
+    //- 祝日が日曜日以外の場合は、木曜日に診療する
+    - shouldOpenOnThursday[weekIdx] = dayIdx != WEEK_DAY.SUNDAY
+
+  table.news__cal__table
+    tr.news__cal__table__m
+      th(colspan=WEEK_DAYS) #{month}
+    tr.news__cal__table__dH
+      th 日
+      th 月
+      th 火
+      th 水
+      th 木
+      th 金
+      th 土
+
+    - let currDay = 1 - firstDayIdx
+    //- 週ループ
+    - for (let weekIdx = 0; weekIdx < weeks; weekIdx++)
+
+      tr.news__cal__table__d
+
+      //- 曜日ループ
+      - for (let dayIdx = 0; dayIdx < WEEK_DAYS; dayIdx++)
+        -
+          let tdClass = ""
+          let tdValue = ""
+
+        //- 当該月である場合
+        if currDay >= 1 && currDay <= days
+          //- 祝日
+          if holidays.includes(currDay)
+            - tdClass += "holiday"
+          //- 休診日の木曜日
+          else if dayIdx == WEEK_DAY.THURSDAY && !shouldOpenOnThursday[weekIdx]
+            - tdClass += "closed"
+          - tdValue = currDay
+
+        //- 当該月でない場合
+        else
+          - tdClass += "empty"
+          - tdValue = " "
+
+        td(class=tdClass) #{tdValue}
+        - currDay++

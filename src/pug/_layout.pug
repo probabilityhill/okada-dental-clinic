@@ -3,6 +3,7 @@ block vars
 include mixin/_nav
 include mixin/_clinicInfo
 include mixin/_officeHours
+include mixin/_calendar
 html(lang="ja", dir="ltr", prefix="og: http://ogp.me/ns#")
   head
     include include/_head
@@ -11,11 +12,11 @@ html(lang="ja", dir="ltr", prefix="og: http://ogp.me/ns#")
     // ##### ヘッダー #####
     header.header
       include include/_header
-      
+
     // ##### グローバルナビゲーション #####
     nav.gnav
       include include/_gnav
-    
+
     // ##### メイン #####
     main(class=key+"__main")
       if(key!="top")
@@ -23,7 +24,7 @@ html(lang="ja", dir="ltr", prefix="og: http://ogp.me/ns#")
           | #{page.name}&emsp;
           span #{page.nameEng}
       block contents
-      
+
     if(key=="reservation")
       <iframe class="reservation_cal" type="text/html" frameborder="0" width="100%" height="1000px" src="//airrsv.net/okada-dental-clinic/calendar/embed/" ></iframe>
 
