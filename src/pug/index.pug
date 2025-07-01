@@ -30,8 +30,8 @@ block contents
     h2.ttl--1 お知らせ&emsp;
       span NEWS
     ul.news__item
-      //- li.c--red
-        p
+      li.c--red 夏季休暇のお知らせ（2025/07/01）
+        p 8月10日(日)～8月17日(日)は休診します。<br>8月18日(月)より平常通り診療します。
       li マスクの着用について（2023/03/13）
         p 当院では引き続きマスクの着用をお願いいたします。
       li インターネット予約を開始しました。（2021/12/02）
@@ -48,8 +48,8 @@ block contents
       span.closed &emsp;&emsp;
       | &thinsp;休診日
     div.news__cal
-      +calendar(6, 30, 0, [])
-      +calendar(7, 31, 2, [21])
+      +calendar(7, 31, 2, [21], [])
+      +calendar(8, 31, 5, [11], [12, 13, 14, 15, 16])
 
 block script
   script(src=jsPath+"/carousel.js")
