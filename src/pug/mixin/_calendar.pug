@@ -4,10 +4,11 @@
 //-   days: 月の日数
 //-   firstDayIdx: 1日の曜日（0: 日曜日, 1: 月曜日, ... , 6: 土曜日）
 //-   holidays: 祝日の配列
+//-   closedDays: 特別な休診日の配列
 //- 使用例:
-//-   +calendar(2, 28, 6, [11, 24])
+//-   +calendar(2, 28, 6, [11, 24], [])
 
-mixin calendar(month, days, firstDayIdx, holidays)
+mixin calendar(month, days, firstDayIdx, holidays, closedDays)
   -
     const WEEK_DAY = Object.freeze({
       SUNDAY: 0, MONDAY: 1, TUESDAY: 2, WEDNESDAY: 3,
@@ -60,6 +61,9 @@ mixin calendar(month, days, firstDayIdx, holidays)
             - tdClass += "holiday"
           //- 休診日の木曜日
           else if dayIdx == WEEK_DAY.THURSDAY && !shouldOpenOnThursday[weekIdx]
+            - tdClass += "closed"
+          //- 特別な休診日
+          else if closedDays.includes(currDay)
             - tdClass += "closed"
           - tdValue = currDay
 
