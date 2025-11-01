@@ -30,6 +30,8 @@ block contents
     h2.ttl--1 お知らせ&emsp;
       span NEWS
     ul.news__item
+      li.c--red 年末年始の休診日のお知らせ（2025/11/01）
+        p 12月28日(日)～1月4日(日)は休診します。<br>1月5日(月)より平常通り診療します。
       li マスクの着用について（2023/03/13）
         p 当院では引き続きマスクの着用をお願いいたします。
       li インターネット予約を開始しました。（2021/12/02）
@@ -46,8 +48,8 @@ block contents
       span.closed &emsp;&emsp;
       | &thinsp;休診日
     div.news__cal
-      +calendar(10, 31, 3, [13], [])
       +calendar(11, 30, 6, [3, 24], [])
+      +calendar(12, 31, 1, [], [29,30,31])
 
 block script
   script(src=jsPath+"/carousel.js")
